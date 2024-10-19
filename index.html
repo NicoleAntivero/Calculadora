@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Apoyo Rebound/styles.css"> 
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="screen" class="calculator-screen" placeholder="0" disabled />
+        <div class="calculator-keys">
+            <button id="key-division" onclick="getValue('key-division')">/</button>
+            <button id="key-multiplication" onclick="getValue('key-multiplication')">*</button>
+            <button id="key-subtraction" onclick="getValue('key-subtraction')">-</button>
+            <button id="key-addition" onclick="getValue('key-addition')">+</button>
+            <button id="key-7" onclick="getValue('key-7')">7</button>
+            <button id="key-8" onclick="getValue('key-8')">8</button>
+            <button id="key-9" onclick="getValue('key-9')">9</button>
+        </br>
+            <button id="key-4" onclick="getValue('key-4')">4</button>
+            <button id="key-5" onclick="getValue('key-5')">5</button>
+            <button id="key-6" onclick="getValue('key-6')">6</button>
+            <button id="key-1" onclick="getValue('key-1')">1</button>
+            <button id="key-2" onclick="getValue('key-2')">2</button>
+            <button id="key-3" onclick="getValue('key-3')">3</button>
+            <button id="key-subtraction" onclick="getValue('key-subtraction')">-</button>
+            <button id="key-0" onclick="getZero()">00</button>
+            <button id="key-decimal" onclick="addDecimal()">.</button>
+            <!-- Holassssssss -->
+        </br>
+            <button id="key-addition" onclick="getValue('key-addition')">+</button>
+            <button id="key-clear" onclick="clearScreen()">C</button>
+            <button class="equal-sign" onclick="solve()">=</button>
+        </div>
+    </div>
+    <script src="Apoyo Rebound/script.js"></script> 
+</body>
+</html>
